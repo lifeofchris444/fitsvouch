@@ -1,9 +1,5 @@
-import GapRewardLander from "@/components/gap-lander"
+import GarageRewardLander from "@/components/garage-lander"
 
-export default function Home() {
-  return (
-    <main>
-      <GapRewardLander />
-    </main>
-  )
+export default function Page() {
+  return <GarageRewardLander />
 }
